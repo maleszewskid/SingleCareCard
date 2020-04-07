@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Professional Portfolio</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+
+    <!-- Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+</head>
+<style>
+  /* body { 
+  background-color:transparent;
+  background-image: url("https://i.imgur.com/rCg5zro.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} */
+@media screen and (max-width: 2560px) and (min-width: 2400px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 56.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 54.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 54.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 54.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 2400px) and (min-width: 1600px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 59.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 56.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 56.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 56.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 1600px) and (min-width: 1100px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 63.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 61.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 61.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 61.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 1100px) and (min-width: 805px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 68.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 63.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 63.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 63.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 805px) and (min-width: 725px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 71.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 65.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 65.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 65.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 725px) and (min-width: 600px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 75.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 68.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 68.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 68.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 600px) and (min-width: 500px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 81.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 71.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 71.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 71.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 500px) and (min-width: 400px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 81.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 73.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 73.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 400px) and (min-width: 300px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 89.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 82.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 82.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 82.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+</style>
+<body>
+<image class="pic" src="https://i.imgur.com/rCg5zro.png"></image>
+<div class="auth">
+
+</div>
+<div class="bin">
+   610378
+    </div>
+    <div class="grp">
+        852589
+        </div>
+        <div class="pcn">
+            SC1
+            </div>   
+            <button type="button" class="btn btn-danger generate">Generate Card</button>
+</body>
+<script>
+    var x = 126243456;
+    var list = [];
+    for (var i =0; i < 100; i++ ){
+        list[i] = x+i;
+    }
+    $(".btn").on("click", function (){
+        $(".auth").html(list[Math.floor(Math.random() * list.length)])
+    
+    })
+
+    
+</script>
+
+</html>

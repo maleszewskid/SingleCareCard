@@ -8,9 +8,11 @@ for (var i =0; i < 100; i++ ){
 // })
 $(".btn1").on("click", function (){ 
     $(".btn1").remove();
-    // $("#info").append("Show this card information to the pharmacist every time you fill a prescription. Save up to 80% on your prescription medications. Savings valid exclusively at CVS, Target, Longs Drugs, Walmart, Kroger, Fry's, Harris Teeter, Walgreens, and Duane Reade pharmacies. This card information is NOT insurance. Your privacy is protected. We do not rent or sell personal information. By using this card information you have agreed to the terms and conditions found at singlecare.com/term-and-conditions. For more information or to order more free cards, please contact us at singlecare.com/rx or call toll-free at 1-844-833-6393. ");
-    // $("#info").append("<hr>");
-    // $("#info").append("&copy;2018 SingleCare Administrators");
+    $("#info").append("Show this card information to the pharmacist every time you fill a prescription. Save up to 80% on your prescription medications. Savings valid exclusively at CVS, Target, Longs Drugs, Walmart, Kroger, Fry's, Harris Teeter, Walgreens, and Duane Reade pharmacies. This card information is NOT insurance. Your privacy is protected. We do not rent or sell personal information. By using this card information you have agreed to the terms and conditions found at singlecare.com/term-and-conditions. For more information or to order more free cards, please contact us at singlecare.com/rx or call toll-free at 1-844-833-6393. ");
+    $("#info").append("<hr>");
+    $("#info").append("Pharmacist Instructions: This card information is pre-activated and entitles the cardholder to all prescription medication benefits associated with the BIN, GRP, and PCN codes (as per state and federal law). If you need help processing a prescription, call the SingleCare Network Pharmacist Helpline toll-free at 1-800-974-3135.");
+    $("#info").append("<hr>");
+    $("#info").append("&copy;2018 SingleCare Administrators");
     window.print();
 })
 $(window).on('load',function(){

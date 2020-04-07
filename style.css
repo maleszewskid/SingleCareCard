@@ -1,0 +1,420 @@
+
+@media screen and (max-width: 2560px) and (min-width: 2400px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 54.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 54.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 54.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 54.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 2400px) and (min-width: 1600px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 56.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 56.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 56.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 56.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 1600px) and (min-width: 1100px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 61.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 61.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 61.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 61.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 1100px) and (min-width: 805px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 63.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 63.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 57.15%;
+  left: 63.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 58.55%;
+  left: 63.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 805px) and (min-width: 725px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 65.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 65.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 65.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 65.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 725px) and (min-width: 600px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 68.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 68.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 68.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 68.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 600px) and (min-width: 500px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 71.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 71.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 71.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.pcn{
+  position: absolute;
+  top: 62.55%;
+  left: 71.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+    
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
+@media screen and (max-width: 500px) and (min-width: 100px){
+.pic{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height:35%;
+  width:100%; ; 
+}
+.auth{
+  position: absolute;
+  top: 52.35%;
+  left: 73.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  font-size:8px;
+}
+.bin{
+  position: absolute;
+  top: 55.85%;
+  left: 73.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  font-size:8px;
+}
+.grp{
+  position: absolute;
+  top: 59.15%;
+  left: 73.85%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  font-size:8px;
+}
+.pcn{
+  position: absolute;
+  top: 60.55%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  font-size:8px;
+}
+.generate{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+  height: 100px;
+  width: 400px;
+  font-size: 225%;
+  background-color: #e52237;
+}
+}
